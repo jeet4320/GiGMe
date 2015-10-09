@@ -10,7 +10,7 @@ public class Login_Page extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login__page);
+        //setContentView(R.layout.activity_login__page);
     }
 
     @Override
