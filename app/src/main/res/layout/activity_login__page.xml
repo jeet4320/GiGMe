@@ -16,7 +16,8 @@
         android:textColorHint="#7ab8ff"
         android:layout_above="@+id/et_password"
         android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/et_password" />
+        android:layout_alignEnd="@+id/et_password"
+        android:inputType="textPersonName" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -51,13 +52,23 @@
         android:layout_below="@+id/btn_login"
         android:layout_centerHorizontal="true" />
 
-    <EditText
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tv_copyright"
+        android:text="Get gigged"
+        android:id="@+id/button"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:text="We get you GiG&apos;ed. ©GiGMe." />
+        android:layout_marginBottom="51dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>
