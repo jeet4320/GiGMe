@@ -28,6 +28,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="gigme.uta.com.gigme.Login_Page" />
         </activity>
+        <activity
+            android:name=".Events"
+            android:label="@string/title_activity_events"
+            android:parentActivityName=".Login_Page" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gigme.uta.com.gigme.Login_Page" />
+        </activity>
     </application>
 
 </manifest>
