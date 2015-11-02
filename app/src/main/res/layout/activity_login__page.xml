@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/et_username"
-        android:hint="User Name"
+        android:hint="User Namee"
         android:focusable="true"
         android:textColorHighlight="#ff7eff15"
         android:textColorHint="#7ab8ff"
