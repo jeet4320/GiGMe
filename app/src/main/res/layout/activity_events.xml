@@ -7,7 +7,25 @@
     <!-- As the main content view, the view below consumes the entire
          space available using match_parent in both dimensions. -->
     <FrameLayout android:id="@+id/container" android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" >
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45dp"
+            android:text="+"
+            android:id="@+id/button2"
+
+            android:layout_gravity="right|top" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="469dp"
+            android:id="@+id/listView"
+            android:layout_gravity="center_horizontal|bottom"
+            tools:listitem="@android:layout/simple_expandable_list_item_1" />
+    </FrameLayout>
 
     <!-- The drawer is given a fixed width in dp and extends the full height of
          the container. -->
