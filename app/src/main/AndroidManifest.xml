@@ -36,6 +36,30 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="gigme.uta.com.gigme.Login_Page" />
         </activity>
+        <activity
+            android:name=".EventDetails"
+            android:label="@string/title_activity_event_details"
+            android:parentActivityName=".Events" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gigme.uta.com.gigme.Events" />
+        </activity>
+        <activity
+            android:name=".HostanEvent"
+            android:label="@string/title_activity_hostan_event"
+            android:parentActivityName=".Events" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gigme.uta.com.gigme.Events" />
+        </activity>
+        <activity
+            android:name=".MyGigs"
+            android:label="@string/title_activity_my_gigs"
+            android:parentActivityName=".Events" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gigme.uta.com.gigme.Events" />
+        </activity>
     </application>
 
 </manifest>
